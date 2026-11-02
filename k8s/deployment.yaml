@@ -18,7 +18,7 @@ spec:
         - name: hello-service
           # Replace with your registry/image, for example: docker.io/YOUR_DOCKERHUB_USER/hello-service:1.0.0
           # image: YOUR_REGISTRY/hello-service:1.0.0
-           image: YOUR_REGISTRY/demo1-backend:v1
+          image: haripriya1310/demo1-backend:v1
           ports:
             - name: http
               containerPort: 8080
